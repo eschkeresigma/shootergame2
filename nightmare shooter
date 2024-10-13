@@ -278,7 +278,6 @@ while running:
                 elif exit_button.is_pressed(mouse_pos):
                     running = False
         elif playing == PLAYING:
-            if event.type == Target:
                 ticktack = (ticktack + 1) % 25
                 if ticktack == 0:
                     x = random.randint(100 ,1000)
