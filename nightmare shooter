@@ -272,7 +272,7 @@ while running:
                     player.shoot()
             running = False
         if playing == MENU:
-            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 4:
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 if play_button.is_pressed(mouse_pos):
                     playing = PLAYING
                 elif exit_button.is_pressed(mouse_pos):
